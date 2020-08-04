@@ -1,0 +1,5 @@
+denv/*
+
+__pycache__/*
+
+.vscode/*
