@@ -1,0 +1,18 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+      "Name": "django_proj_djangoapp:latest",
+      "Update": "true"
+    },
+    "Ports": [
+      {
+        "ContainerPort": "8000"
+      }
+    ],
+    "Volumes": [
+        {
+          "HostDirectory": "/opt/services/djangoapp/",
+          "ContainerDirectory": "/opt/services/djangoapp/"
+        }
+      ]
+   }
