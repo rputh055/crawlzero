@@ -26,9 +26,10 @@ SECRET_KEY = '#^@9)v3*$%n=bkkykvxg_s$28m4f4(79frn-4%eie-&ewfudsz'
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['crawlzero-dev.ca-central-1.elasticbeanstalk.com']
+#ALLOWED_HOSTS = ['crawlzero-dev.ca-central-1.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['*']
 
 DATA_UPLOAD_MAX_MEMORY_SIZE = 52428800
 FILE_UPLOAD_MAX_MEMORY_SIZE = 52428800
